@@ -8,13 +8,6 @@ Install Nodejs and run below commands
 - grunt builddev
 
 
-# Run server
-- Make sure nginx or apache is shutdown unless you want to use it than below command as testing webserver
-- node webserver.js
-
-# Open browser
-- http://localhost
-
 
 
 
