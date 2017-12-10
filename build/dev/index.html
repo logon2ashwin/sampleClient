@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html ng-app="clofus" ng-style="needScroll()">
+<head>
+    <title>Clofus - Learn Collaboratively</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Clofus</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link href="./fonts/fonts.css" rel="stylesheet" type="text/css" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="./favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="./favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="./favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="./favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="./favicons/manifest.json">
+    <meta name="apple-mobile-web-app-title" content="Clofus">
+    <meta name="application-name" content="Clofus">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="apple-touch-startup-image" href="./favicons/splash.png" />
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!--
+    <script type="text/javascript">
+        document.ontouchmove = function (event) {
+            event.preventDefault();
+        }
+        //   body.on('touchmove', function (e) {
+        //      if (!$('.scrollable').has($(e.target)).length) e.preventDefault();
+        //    });
+    </script>
+    -->
+    <!--
+     <script>
+     document.write('<base href="' + document.location + '" />');
+     </script>
+      -->
+    <!-- endbuild
+    <base href="/ClientAPP/app/">
+-->
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./lib/Bootstrap/css/bootstrap.min.css" />
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="./css/bootstrap-theme.css">
+
+    <link rel="stylesheet" href="./css/animate.css" />
+
+<!--
+     <link href="css/bootstrap/bootstrap.css" rel="stylesheet"/>
+     <link href="css/bootstrap/bootstrap-responsive.css" rel="stylesheet"/>
+-->
+    <link rel="stylesheet" href="./lib/fullcalendar/fullcalendar.css">
+<!-- CALENDER
+<link rel="stylesheet" href="../lib/bootstrap-css/css/bootstrap.css" />-->
+    <link rel="stylesheet" href="./modules/events/calendarDemo.css"/>
+
+    <link rel="stylesheet" href="./lib/font-awesome/css/font-awesome.min.css"/>
+<!--
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"/>
+-->
+   <link rel="stylesheet" href="./css/form-wizard.css"/>
+
+    <!-- global styles -->
+    <link rel="stylesheet" type="text/css" href="css/layout.css"/>
+
+
+
+    <!-- this page specific styles -->
+
+    <link rel="stylesheet" href="./modules/dashboard/dashboard.css" type="text/css" media="screen"/>
+
+
+    <!--[if lt IE 9]>
+    <script src="./lib/html5ie.js"></script>
+    <![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+
+
+
+
+
+
+</head>
+<body ng-cloak="" style="padding-top: 50px;" ng-style="needScroll()">
+
+
+<div ng-include="'./modules/navbar/index.html'"></div>
+<content></content>
+<div ng-include="'./modules/footer/index.html'"></div>
+
+
+<script type="text/javascript" src="../lib/tinymce/tinymce.min.js"></script>
+
+
+
+<script src="./lib/jquery/jquery.min.js"></script>
+<script src="./lib/jquery/jquery-ui.min.js"></script>
+<script type="text/javascript" src="./lib/moment/moment.js"></script>
+
+
+
+
+<script src="./bower_components/angular/angular.min.js"></script>
+<script src="./lib/angular/angular-animate.min.js"></script>
+<script src="./lib/angular/angular-loader.min.js"></script>
+<script src="./lib/angular/angular-resource.min.js"></script>
+<script src="./bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+<script type="text/javascript" src="./lib/angular-ui-tinymce/tinymce.js"></script>
+
+<script type="text/javascript" src="./lib/angular-bootstrap-datetimepicker/datetimepicker.js"></script>
+<script src="./lib/highcharts/highcharts-all.js"></script>
+<script src="./lib/highcharts/highcharts-ng.js"></script>
+<script src="./lib/highcharts/export-csv.js"></script>
+
+<script src="./lib/Bootstrap/js/ui-bootstrap-tpls-0.12.0.min.js"></script>
+<script src="./lib/fullcalendar/fullcalendar.js"></script>
+<script src="./lib/fullcalendar/gcal.js"></script>
+<script src="./lib/fullcalendar/calendar.js"></script>
+
+<script data-require="bootstrap@*" data-semver="3.2.0" src="./lib/Bootstrap/js/bootstrap.js"></script>
+<script type='text/javascript' href='../lib/angular-charts/dist/angular-charts.min.js'></script>
+
+<!-- build:js scripts/modules.js -->
+<script src="./lib/angular/angular-route.min.js"></script>
+<script src="./lib/angular/angular-resource.min.js"></script>
+<script src="./lib/angular/angular-touch.min.js"></script>
+<script src="./lib/angular/angular-cookies.min.js"></script>
+<script src="./lib/angular/angular-sanitize.min.js"></script>
+<script src="./lib/angular/angularLocalStorage.js"></script>
+
+
+<!-- build:js({.tmp,app}) scripts/scripts.js -->
+<script src="root/app.js"></script>
+<script src="root/controllers/main.js"></script>
+
+<!--Routes -->
+<script src="./root/routes/AppRoutes.js"></script>
+
+
+<!--Directives -->
+<script src="./root/directives/inputtag.js"></script>
+<script src="./root/directives/cleartag.js"></script>
+<script src="./root/directives/savecleartag.js"></script>
+<script src="./root/directives/compile.js"></script>
+<script src="./root/directives/formcontrols.js"></script>
+<script src="./root/directives/enterkey.js"></script>
+
+<script src="./root/directives/content.js"></script>
+<script src="./root/directives/menutiles.js"></script>
+<script src="./root/directives/inputbox.js"></script>
+<script src="./root/directives/autoinputbox.js"></script>
+<script src="./root/directives/sidebar.js"></script>
+<script src="./root/directives/dragndrop.js"></script>
+<script src="./root/directives/combobox.js"></script>
+<!--
+<script src="./lib/d3/d3.js"></script>
+<script src="./lib/nvd3/nv.d3.js"></script>
+<script src="./lib/angularjs-nvd3-directives/angularjs-nvd3-directives.js"></script>
+-->
+
+<!--Services -->
+<script src="./root/services/Resource.js"></script>
+<script src="./root/services/Auth.js"></script>
+<script src="./root/services/AppList.js"></script>
+<script src="./root/services/AppLoader.js"></script>
+<script src="./root/services/chartTemplateService.js"></script>
+<script src="./root/services/AppController.js"></script>
+<script src="./root/services/TaskController.js"></script>
+<script src="./root/services/UserService.js"></script>
+<script src="./root/services/CappService.js"></script>
+<script src="./root/services/BasicInfoService.js"></script>
+<script src="./root/services/MarkInfoService.js"></script>
+<script src="./root/services/NotificationService.js"></script>
+<script src="./root/services/AttendanceService.js"></script>
+<script src="./root/services/CStudentService.js"></script>
+<script src="./root/services/NotesService.js"></script>
+<script src="./root/services/SetupService.js"></script>
+<script src="./root/services/UserAdminService.js"></script>
+<script src="./root/services/Announcement.js"></script>
+<script src="./root/services/ContentService.js"></script>
+<script src="./root/services/ContentShow.js"></script>
+<script src="./root/services/UploadService.js"></script>
+<script src="./root/services/JoinInstituteService.js"></script>
+<script src="./root/services/forgotpwdService.js"></script>
+<script src="./root/services/resetpwdService.js"></script>
+<script src="./root/services/wallService.js"></script>
+<script src="./root/services/groupService.js"></script>
+<script src="./root/services/postService.js"></script>
+<script src="./root/services/grpMemberService.js"></script>
+<script src="./root/services/grpuserService.js"></script>
+<script src="./root/services/searchGroupService.js"></script>
+<script src="./root/services/profileService.js"></script>
+<!--<script src="./root/services/instituteService.js"></script>-->
+<!--Module Controllers-->
+<script src="./modules/signin/js/signin.js"></script>
+<script src="./modules/signout/js/signout.js"></script>
+<script src="./modules/signup/js/signup.js"></script>
+<script src="./modules/dashboard/js/dashboard.js"></script>
+<script src="./modules/appcrud/js/appcrud.js"></script>
+<script src="./modules/analytics/js/analytics.js"></script>
+<script src="./modules/profile/js/profileController.js"></script>
+<script src="./modules/createapp/js/createapp.js"></script>
+<script src="./modules/events/js/events.js"></script>
+<script src="./modules/attendance/js/attendance.js"></script>
+<script src="./modules/notes/js/notes.js"></script>
+<script src="./modules/setup/js/setup.js"></script>
+<script src="./modules/feed/js/feed.js"></script>
+<script src="./modules/taskboard/js/taskboard.js"></script>
+<script src="./modules/useradmin/js/useradmin.js"></script>
+<script src="./modules/topic/js/topic.js"></script>
+<script src="./modules/team/js/team.js"></script>
+<script src="./modules/events/js/events.js"></script>
+<script src="./modules/attendance/js/attendance.js"></script>
+<script src="./modules/notes/js/notes.js"></script>
+<script src="./modules/feed/js/feed.js"></script>
+<script src="./modules/taskboard/js/taskboard.js"></script>
+<script src="./modules/topic/js/topic.js"></script>
+<script src="./modules/team/js/team.js"></script>
+<script src="./modules/group/js/group.js"></script>
+<script src="./modules/tasks/js/tasks.js"></script>
+<script src="./modules/lookup/js/lookup.js"></script>
+
+<script src="./modules/institutehome/js/institutehome.js"></script>
+
+<script src="./modules/creategroup/js/createGroup.js"></script>
+<script src="./modules/joingroup/js/joinGroup.js"></script>
+
+<script src="./modules/books/js/booksController.js"></script>
+<script src="./modules/content/js/contentController.js"></script>
+<script src="./modules/newtaskboard/task.js"></script>
+<script src="./modules/joinInstitute/js/joinInstitute.js"></script>
+<script src="./modules/uploadcontent/js/uploadContentController.js"></script>
+<script src="./modules/courselist/js/courseListController.js"></script>
+<script src="./modules/forgotpwd/js/forgotpwd.js"></script>
+
+<script src="./config.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<div class="modal-header">
+    <h2>Select bowlers</h2>
+</div>
+<div class="modal-body">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div>
+                <table class="table table-hover" style="overflow-x: hidden;">
+                    <thead>
+                        <tr>
+                            <th>Player Name</th>
+                            <th>Type</th>
+                            <th> </th>
+                        </tr>
+                    </thead>                
+                    <tbody>
+                         <tr ng-repeat="datalist in bowling">
+                        <td class="sender text-capitalize" >{{datalist.player_name}}</td>
+                        <td class="sender text-capitalize" >{{datalist.type}}</td>
+                        <td class="text-center">
+                        <td class="text-center">
+                        <button class="btn btn-sm btn-default" ng-click="addbowler(datalist)" ng-show='datalist._id!=active_bowler'><i class="fa fa-check-square"></i>&nbsp;Add</button>
+                        <button class="btn btn-sm btn-danger" ng-click="removebowler()" ng-show='datalist._id==active_bowler'><i class="fa fa-check-square"></i>&nbsp;Remove</button>
+                        </td>
+                        </td>
+                   </tbody>
+                </table>
+            </div>
+                <div class="form-group" style="margin-left: 78px">
+                    <input type="button" class="btn btn-md btn-success" value="Confirm" ng-click="save()">
+                    <input type="button" class="btn btn-md btn-danger" ng-click="cancel()" value="Close">
+                </div>
+            </div>
+    </div>
+</div>

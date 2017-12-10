@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<testsuite name="PhantomJS 1.9.8 (Windows 8 0.0.0)" package="" timestamp="2015-09-24T11:31:29" id="0" hostname="clofus2" tests="121" errors="0" failures="0" time="3.499">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34"/>
+  </properties>
+  <testcase name="check the routeID and Path" time="0.105" classname="appCtrlSpec"/>
+  <testcase name="check the unprotected path" time="0.042" classname="appCtrlSpec"/>
+  <testcase name="check the goto apps function is working or not?" time="0.024" classname="appCtrlSpec"/>
+  <testcase name="check the goto home function is working or not?" time="0.024" classname="appCtrlSpec"/>
+  <testcase name="check the apps function is assigned or not?" time="0.023" classname="appCtrlSpec"/>
+  <testcase name="check the display sidebar function is assigned or not?" time="0.022" classname="appCtrlSpec"/>
+  <testcase name="check the toolbar function is working or not?" time="0.022" classname="appCtrlSpec"/>
+  <testcase name="check the Image retrive function is working or not?" time="0.021" classname="appCtrlSpec"/>
+  <testcase name="check the Image getprofile status assigned is working or not?" time="0.02" classname="appCtrlSpec"/>
+  <testcase name="check the handle file function is assigned or not?" time="0.039" classname="appCtrlSpec"/>
+  <testcase name="check the  update file function is assigned or not?" time="0.021" classname="appCtrlSpec"/>
+  <testcase name="check the  sidebar display function is assigned or not?" time="0.021" classname="appCtrlSpec"/>
+  <testcase name="check the  widecontent function is assigned or not?" time="0.02" classname="appCtrlSpec"/>
+  <testcase name="check the  thumbStyle function is assigned or not?" time="0.022" classname="appCtrlSpec"/>
+  <testcase name="check joinchannel function is  working  or not?" time="0.021" classname="appCtrlSpec"/>
+  <testcase name="check searchchannel function is  working  or not?" time="0.022" classname="appCtrlSpec"/>
+  <testcase name="Check the path" time="0.031" classname="CreateatricleCtrlSpec"/>
+  <testcase name="Check the tinymc option function" time="0.024" classname="CreateatricleCtrlSpec"/>
+  <testcase name="Check the tinymc option function toolbar value" time="0.037" classname="CreateatricleCtrlSpec"/>
+  <testcase name="Check the tinymc option  skin color " time="0.05" classname="CreateatricleCtrlSpec"/>
+  <testcase name="Check the find function " time="0.022" classname="CreateatricleCtrlSpec"/>
+  <testcase name="Check the call search group function is working or not? " time="0.023" classname="CreateatricleCtrlSpec"/>
+  <testcase name="Check the addinlist function is working or not? " time="0.022" classname="CreateatricleCtrlSpec"/>
+  <testcase name="Check the ClearPageTopics function is working or not? " time="0.022" classname="CreateatricleCtrlSpec"/>
+  <testcase name="check values are assigned or not?" time="0.032" classname="Controller: Homepagectrl"/>
+  <testcase name="check values are assigned or not?" time="0.024" classname="Controller: Homepagectrl"/>
+  <testcase name="check getPreviewUrl working  or not?" time="0.023" classname="Controller: Homepagectrl"/>
+  <testcase name="check getUrl function is  working  or not?" time="0.024" classname="Controller: Homepagectrl"/>
+  <testcase name="check Reputation function is  working  or not?" time="0.024" classname="Controller: Homepagectrl"/>
+  <testcase name="check getpage function is  working  or not?" time="0.026" classname="Controller: Homepagectrl"/>
+  <testcase name="check getpeople function is  working  or not?" time="0.025" classname="Controller: Homepagectrl"/>
+  <testcase name="check chatbox function is  working  or not?" time="0.062" classname="Controller: Homepagectrl"/>
+  <testcase name="check tutorial function is  working  or not?" time="0.023" classname="Controller: Homepagectrl"/>
+  <testcase name="check tutorial function is  working  or not?" time="0.023" classname="Controller: Homepagectrl"/>
+  <testcase name="check Search All function is  working  or not?" time="0.024" classname="Controller: Homepagectrl"/>
+  <testcase name="check saveTutorialUrl  function is  working  or not?" time="0.023" classname="Controller: Homepagectrl"/>
+  <testcase name="check saveTutorialUrl  function is  working  or not?" time="0.022" classname="Controller: Homepagectrl"/>
+  <testcase name="check SearchInterest  function is  working  or not?" time="0.082" classname="Controller: Homepagectrl"/>
+  <testcase name="check SearchInterest  function  having different value" time="0.025" classname="Controller: Homepagectrl"/>
+  <testcase name="check Create Interest  function is  working  or not?" time="0.025" classname="Controller: Homepagectrl"/>
+  <testcase name="check chat  function is  working  or not?" time="0.025" classname="Controller: Homepagectrl"/>
+  <testcase name="Check the path" time="0.026" classname="signuppage1CtrlSpec"/>
+  <testcase name="Check the save function is working or not?" time="0.024" classname="signuppage1CtrlSpec"/>
+  <testcase name="Check the path" time="0.025" classname="signuppage1CtrlSpec"/>
+  <testcase name="Check the values are assigned or not?" time="0.022" classname="signuppage1CtrlSpec"/>
+  <testcase name="Check getmyGroupList is working or not?" time="0.023" classname="signuppage1CtrlSpec"/>
+  <testcase name="Check searchInterest value assigned or not?" time="0.024" classname="signuppage1CtrlSpec"/>
+  <testcase name="Check searchInterest function is working or not?" time="0.024" classname="signuppage1CtrlSpec"/>
+  <testcase name="check the routeID and Path" time="0.073" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.021" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.02" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.022" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.02" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.02" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.077" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.021" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.021" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.021" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.022" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.024" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.024" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.023" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.025" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.024" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.023" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.023" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.03" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.024" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.026" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.023" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.026" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.024" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.091" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.022" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.056" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.023" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.021" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.022" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.021" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.021" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.021" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.022" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.022" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.021" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.022" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.023" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.022" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.022" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.022" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.023" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.025" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.024" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.025" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.024" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.054" classname="routeCtrlSpec"/>
+  <testcase name="check the routes" time="0.025" classname="routeCtrlSpec"/>
+  <testcase name="Check the path" time="0.044" classname="SigninCtrlSpec"/>
+  <testcase name="check default sidebar is false or not?" time="0.029" classname="SigninCtrlSpec"/>
+  <testcase name="check widecontent value is set or not?" time="0.03" classname="SigninCtrlSpec"/>
+  <testcase name="check the signing error is false or not?" time="0.031" classname="SigninCtrlSpec"/>
+  <testcase name="check the sign in function working or not?" time="0.031" classname="SigninCtrlSpec"/>
+  <testcase name="check signin function is Defined or not?" time="0.034" classname="SigninCtrlSpec"/>
+  <testcase name="check go function is Defined or not?" time="0.124" classname="SigninCtrlSpec"/>
+  <testcase name="check verify token is set or not?" time="0.027" classname="SigninCtrlSpec"/>
+  <testcase name="check signin function is working or not?" time="0.029" classname="SigninCtrlSpec"/>
+  <testcase name="Check the path" time="0.027" classname="SignoutCtrlSpec"/>
+  <testcase name="should define sidebar_display" time="0.023" classname="SignoutCtrlSpec"/>
+  <testcase name="should define wideContent" time="0.022" classname="SignoutCtrlSpec"/>
+  <testcase name="should check go function" time="0.022" classname="SignoutCtrlSpec"/>
+  <testcase name="should check user details are defined or Not?" time="0.022" classname="SignoutCtrlSpec"/>
+  <testcase name="should check user basic information are defined or Not?" time="0.022" classname="SignoutCtrlSpec"/>
+  <testcase name="should check user Notifications  are defined or Not?" time="0.022" classname="SignoutCtrlSpec"/>
+  <testcase name="Check the path" time="0.036" classname="viewarticleCtrlSpec"/>
+  <testcase name="Check the default value is assigned or not?" time="0.03" classname="viewarticleCtrlSpec"/>
+  <testcase name="Check the default value is false or not?" time="0.024" classname="viewarticleCtrlSpec"/>
+  <testcase name="Check the pos function value assigned or not?" time="0.024" classname="viewarticleCtrlSpec"/>
+  <testcase name="Check the reply function value assigned or not?" time="0.025" classname="viewarticleCtrlSpec"/>
+  <testcase name="Check the delete function value assigned or not?" time="0.026" classname="viewarticleCtrlSpec"/>
+  <testcase name="Check the update article function is working or not?" time="0.027" classname="viewarticleCtrlSpec"/>
+  <testcase name="Check the reply  function is working or not?" time="0.029" classname="viewarticleCtrlSpec"/>
+  <testcase name="Check the Delete function is working or not?" time="0.028" classname="viewarticleCtrlSpec"/>
+  <system-out><![CDATA[PhantomJS 1.9.8 (Windows 8 0.0.0) LOG: [Object{answer_id: 1, pages_id: 3, answer: 'hiaasjh asjashb hjsa sa', created_date: '2015-06-03T14:45:37.000Z', creator_id: 148, question_id: 1, creator_name: null, creator_pic: null}]
+
+]]></system-out>
+  <system-err/>
+</testsuite>

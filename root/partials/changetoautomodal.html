@@ -1,0 +1,23 @@
+<div class="modal-header">
+    <h5 class="text-right" role="button"><span ng-click="cancel()">X Close</span></h5>
+    <h2>Select Match</h2>
+</div>
+<div class="modal-body">
+    <div class="form-group">
+        <label>Select Tournament</label>
+        <select class="form-control" ng-model="search.tournament" ng-change="getmatchlist(search.tournament)">
+            <option value="{{data._id}}" ng-repeat="data in tournaments">{{data.tournament_name}}</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Select Match</label>
+        <select class="form-control" ng-model="search.match_id">
+            <option value="{{data._id}}" ng-repeat="data in matches">{{data.team_1.teamid.team_name}} vs {{data.team_2.teamid.team_name}}, 
+            {{data.match_details}}</option>
+        </select>
+    </div>
+    <div class="form-group text-right">
+        <buttton class="btn btn-success" ng-click="changetoautoscoreupdate(search)">Change</buttton>
+        <buttton class="btn btn-danger" ng-click="cancel()">Close</buttton>
+    </div>
+</div>

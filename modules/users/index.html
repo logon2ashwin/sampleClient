@@ -1,0 +1,131 @@
+<div ng-include="&apos;./partials/topbar-menu.html&apos;"></div>
+
+<!-- type: list -->
+<div class="page-content" ng-show="type=='list'">
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="text-uppercase">Accounts&nbsp;<span class="badge">{{userlist.length}}</span></h1>
+        </div>
+        <div class="col-md-6">
+            <button type="button" class="btn btn-md btn-danger pull-right" style="margin-top: 31px" ng-click="go('/users/create')"><i class="fa fa-plus"></i>&nbsp;Create user</button>
+        </div>
+    </div>
+        <div class="panel panel-content" ng-show="userlist.length!=0" style="padding: 50px; font-weight: normal;">
+            <table class="table table-hover" style="overflow-x: hidden;">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Username</th>
+                        <th>Password</th>
+                        <th>Role</th>
+                        <th>Country</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>options</th>
+                    </tr>
+                </thead>                
+                <tbody>
+                     <tr ng-repeat="datalist in userlist">
+                        <td class="text-capitalize" >{{datalist.name}}</td>
+                        <td>{{datalist.username}}</td>
+                        <td>{{datalist.password}}</td>
+                        <td class="text-capitalize">{{datalist.role}}</td>
+                        <td class="text-capitalize">{{datalist.country}}</td>
+                        <td>{{datalist.phone}}</td>
+                        <td>{{datalist.email}}</td>
+                        <td>
+                        <button ng-click="goparams('users/edit',datalist._id)" class="btn btn-sm btn-primary"><i class="fa fa-edit"></i>&nbsp;Edit</button>
+                        <button ng-click="deleteuser(datalist._id)" class="btn btn-sm btn-danger"><i class="fa fa-times-circle"></i>&nbsp;Remove</button>
+                        </td>
+                      </tr>
+               </tbody>
+            </table>
+         </div>
+</div>
+<!-- type:create || edit -->
+<div class="page-content" ng-show="type=='create' || type=='edit'">
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="text-uppercase">User Details&nbsp;</h1>
+        </div>
+    </div>
+    <div class="panel">
+    <div style="padding: 50px; font-weight: normal;">
+    <form name="createuserform">
+        <table class="table table-hover">
+            <thead>
+                <tr style="height: 50px;">
+                <th>User informations</th>
+                <th></th>
+                <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td style="width: 355px; height: 50px;" class="rowspan=2">Name</td>
+                <td>
+                   <input type="text" style="height: 45px;" class="form-control" placeholder="Name" ng-model="user.name" required="required">
+                </td>
+                </tr>
+
+                <tr>
+                <td style="width: 355px; height: 50px;" class="rowspan=2">Cricworm Username</td>
+                <td>
+                   <input type="text" style="height: 45px;" class="form-control" placeholder="Username" ng-model="user.username" required="required">
+                </td>
+                </tr>
+                
+                <tr>
+                <td style="width: 355px; height: 50px;" class="rowspan=2">User Email</td>
+                <td>
+                   <input type="email" style="height: 45px;" class="form-control" placeholder="Email" ng-model="user.email" required="required">
+                </td>
+                </tr>
+
+                <tr>
+                <td style="width: 355px; height: 50px;" class="rowspan=2">User Password</td>
+                <td>
+                   <input type="Password" style="height: 45px;" class="form-control" placeholder="Password" ng-model="user.password" required="required">
+                </td>
+                </tr>
+
+                <tr>
+                <td style="width: 355px; height: 50px;" class="rowspan=2">Role</td>
+                <td>
+                   <select class="form-control" style="height: 45px;" ng-model="user.role" required>
+                        <option value="">Select Role</option>
+                        <option value="admin">Admin</option>
+                        <option value="leader">leader</option>
+                        <option value="scorer">Scorer</option>
+                    </select>
+                </td>
+                </tr>
+
+                <tr>
+                <td style="width: 355px; height: 50px;" class="rowspan=2">Country</td>
+                <td>
+                   <input type="text" style="height: 45px;" class="form-control" placeholder="Country" ng-model="user.country" required="required">
+                </td>
+                </tr>
+
+                <tr>
+                <td style="width: 355px; height: 50px;" class="rowspan=2">Phone</td>
+                <td>
+                   <input type="number" style="height: 45px;" class="form-control" placeholder="Phone Number" ng-model="user.phone" required="required">
+                </td>
+                </tr>                
+                
+
+                </tbody>
+                </table>
+            <br>
+        <div class="form-group  row col-md-9">
+            <input type="button" class="btn btn-success" ng-show="type=='create'" ng-click="createuser(user)" value="Create User" ng-disabled="createuserform.$error.required">
+            <input type="button" class="btn btn-success" ng-show="type=='edit'" ng-click="updateuser(user)" value="Update" ng-disabled="createuserform.$error.required">
+            <input type="button" class="btn btn-success" ng-click="go('users/list')" value="Cancel">
+        </div>
+        </form>
+    </div>
+        
+    </div>
+</div>

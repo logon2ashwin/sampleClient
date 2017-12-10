@@ -1,0 +1,34 @@
+<div class="modal-header">
+   <h2><i class="fa fa-edit"></i> Edit Match</h2>
+</div>
+<div class="modal-body">
+	<div class="form-group">
+		<label>Match Status</label>
+		<select class="form-control" name="match_status" ng-model="editmatchdetails.current_match_status" ng-disabled="editmatchdetails.scoreupdate=='auto'">
+			<option value="break">Break</option>
+			<option value="stumps">Stumps</option>
+			<option value="rain">Rain</option>
+			<option value="result">Result</option>
+		</select>
+	</div>
+	<div class="form-group">
+		<label>Match Result</label>
+		<input type="text" name="match_status" class="form-control" ng-model="editmatchdetails.status">
+	</div>
+
+	<div class="form-group">
+		<label>Match Venue</label>
+		<input type="text" name="match_status" class="form-control" ng-model="editmatchdetails.match_venue">
+	</div>
+
+
+	<div class="form-group">
+		<label>Match Details</label>
+		<input type="text" name="match_status" class="form-control" ng-model="editmatchdetails.match_details">
+	</div>
+
+	<div class="form-group">
+		<button class="btn btn-primary" ng-click="updatematch(editmatchdetails)">Ok</button>
+		<button class="btn btn-danger" ng-click="cancel()">Cancel</button>
+	</div>
+</div>

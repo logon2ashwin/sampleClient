@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-style: normal;
+  src: url('./opensans/Open-Sans-300/Open-Sans-300.eot');
+  src: url('./opensans/Open-Sans-300/Open-Sans-300.eot?#iefix') format('embedded-opentype'),
+       local('Open Sans Light'),
+       local('Open-Sans-300'),
+       url('./opensans/Open-Sans-300/Open-Sans-300.woff2') format('woff2'),
+       url('./opensans/Open-Sans-300/Open-Sans-300.woff') format('woff'),
+       url('./opensans/Open-Sans-300/Open-Sans-300.ttf') format('truetype'),
+       url('./opensans/Open-Sans-300/Open-Sans-300.svg#OpenSans') format('svg');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./opensans/Open-Sans-regular/Open-Sans-regular.eot');
+  src: url('./opensans/Open-Sans-regular/Open-Sans-regular.eot?#iefix') format('embedded-opentype'),
+       local('Open Sans'),
+       local('Open-Sans-regular'),
+       url('./opensans/Open-Sans-regular/Open-Sans-regular.woff2') format('woff2'),
+       url('./opensans/Open-Sans-regular/Open-Sans-regular.woff') format('woff'),
+       url('./opensans/Open-Sans-regular/Open-Sans-regular.ttf') format('truetype'),
+       url('./opensans/Open-Sans-regular/Open-Sans-regular.svg#OpenSans') format('svg');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-style: normal;
+  src: url('./opensans/Open-Sans-600/Open-Sans-600.eot');
+  src: url('./opensans/Open-Sans-600/Open-Sans-600.eot?#iefix') format('embedded-opentype'),
+       local('Open Sans Semibold'),
+       local('Open-Sans-600'),
+       url('./opensans/Open-Sans-600/Open-Sans-600.woff2') format('woff2'),
+       url('./opensans/Open-Sans-600/Open-Sans-600.woff') format('woff'),
+       url('./opensans/Open-Sans-600/Open-Sans-600.ttf') format('truetype'),
+       url('./opensans/Open-Sans-600/Open-Sans-600.svg#OpenSans') format('svg');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-style: normal;
+  src: url('./opensans/Open-Sans-700/Open-Sans-700.eot');
+  src: url('./opensans/Open-Sans-700/Open-Sans-700.eot?#iefix') format('embedded-opentype'),
+       local('Open Sans Bold'),
+       local('Open-Sans-700'),
+       url('./opensans/Open-Sans-700/Open-Sans-700.woff2') format('woff2'),
+       url('./opensans/Open-Sans-700/Open-Sans-700.woff') format('woff'),
+       url('./opensans/Open-Sans-700/Open-Sans-700.ttf') format('truetype'),
+       url('./opensans/Open-Sans-700/Open-Sans-700.svg#OpenSans') format('svg');
+}
+
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-style: normal;
+    src: url('./proximanova/proximanova-bold.eot');
+    src: url('./proximanova/proximanova-bold.eot?#iefix') format('embedded-opentype'),
+    local('proximanova Bold'),
+    local('proximanova-bold'),
+    url('./proximanova/proximanova-bold.woff') format('woff'),
+    url('./proximanova/proximanova-bold.ttf') format('truetype'),
+    url('./proximanova/proximanova-bold.svg#OpenSans') format('svg');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    font-style: normal;
+    src: url('./proximanova/proximanova-bold.eot');
+    src: url('./proximanova/proximanova-bold.eot?#iefix') format('embedded-opentype'),
+    local('proximanova Bold'),
+    local('proximanova-bold'),
+    url('./proximanova/proximanova-bold.woff') format('woff'),
+    url('./proximanova/proximanova-bold.ttf') format('truetype'),
+    url('./proximanova/proximanova-bold.svg#OpenSans') format('svg');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 500;
+    font-style: normal;
+    src: url('./proximanova/proximanova-bold.eot');
+    src: url('./proximanova/proximanova-bold.eot?#iefix') format('embedded-opentype'),
+    local('proximanova Bold'),
+    local('proximanova-bold'),
+    url('./proximanova/proximanova-bold.woff') format('woff'),
+    url('./proximanova/proximanova-bold.ttf') format('truetype'),
+    url('./proximanova/proximanova-bold.svg#OpenSans') format('svg');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-style: normal;
+    src: url('./proximanova/proximanova-semibold.eot');
+    src: url('./proximanova/proximanova-semibold.eot?#iefix') format('embedded-opentype'),
+    local('proximanova SemiBold'),
+    local('proximanova-semibold'),
+    url('./proximanova/proximanova-semibold.woff') format('woff'),
+    url('./proximanova/proximanova-semibold.ttf') format('truetype'),
+    url('./proximanova/proximanova-semibold.svg#OpenSans') format('svg');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 300;
+    font-style: normal;
+    src: url('./proximanova/proximanova-semibold.eot');
+    src: url('./proximanova/proximanova-semibold.eot?#iefix') format('embedded-opentype'),
+    local('proximanova SemiBold'),
+    local('proximanova-semibold'),
+    url('./proximanova/proximanova-semibold.woff') format('woff'),
+    url('./proximanova/proximanova-semibold.ttf') format('truetype'),
+    url('./proximanova/proximanova-semibold.svg#OpenSans') format('svg');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 200;
+    font-style: normal;
+    src: url('./proximanova/proximanova-regular.eot');
+    src: url('./proximanova/proximanova-regular.eot?#iefix') format('embedded-opentype'),
+    local('proximanova Regular'),
+    local('proximanova-regular'),
+    url('./proximanova/proximanova-regular.woff') format('woff'),
+    url('./proximanova/proximanova-regular.ttf') format('truetype'),
+    url('./proximanova/proximanova-regular.svg#OpenSans') format('svg');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 100;
+    font-style: normal;
+    src: url('./proximanova/proximanova-regular.eot');
+    src: url('./proximanova/proximanova-regular.eot?#iefix') format('embedded-opentype'),
+    local('proximanova Regular'),
+    local('proximanova-regular'),
+    url('./proximanova/proximanova-regular.woff') format('woff'),
+    url('./proximanova/proximanova-regular.ttf') format('truetype'),
+    url('./proximanova/proximanova-regular.svg#OpenSans') format('svg');
+}
+

@@ -1,0 +1,35 @@
+<div class="modal-header">
+    <h5 class="text-right" role="button"></h5>
+    <h2>Select Next Batsman</h2>
+</div>
+<div class="modal-body">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div>
+                <table class="table table-hover" style="overflow-x: hidden;">
+                    <thead>
+                        <tr>
+                            <th>Player Name</th>
+                            <th>Type</th>
+                            <th> </th>
+                        </tr>
+                    </thead>                
+                    <tbody>
+                         <tr ng-repeat="datalist in remainingplayers">
+                        <td class="sender text-capitalize" >{{datalist.player_name}}</td>
+                        <td class="sender text-capitalize" >{{datalist.type}}</td>
+                        <td class="text-center">
+                        <button class="btn btn-sm btn-default" ng-show="nextscore.batsman_id.length!=2 && datalist._id!=nextscore.batsman_id[0]._id" ng-click="addbatsman(datalist)"><i class="fa fa-check-square"></i>&nbsp;select</button>
+                        <label ng-show="datalist._id==nextscore.batsman_id[0]._id">On Field</label>
+                        <button class="btn btn-sm btn-danger" ng-show="datalist._id==nextscore.batsman_id[1]._id" ng-click="removebatsman(datalist)"><i class="fa fa-check-close"></i>&nbsp;Remove</button>
+                        </td>
+                   </tbody>
+                </table>
+            </div>
+                <div class="form-group" style="margin-left: 78px">
+                    <input type="button" class="btn btn-md btn-success" value="Confirm" ng-click="save()">
+                    <input type="button" class="btn btn-md btn-danger" ng-click="cancel()" value="cancel">
+                </div>
+            </div>
+    </div>
+</div>

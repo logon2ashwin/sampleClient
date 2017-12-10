@@ -1,0 +1,16 @@
+{
+ "servers":[
+               {   "name": "Development Server",
+                   "domain": "localhost",
+                   "value": "http://localhost:3002/api/v1/"
+               },
+               {   "name":"Test Server",
+                   "domain": "cricwormadmin.clofus.com",
+                   "value":"http://cricwormapi.clofus.com/api/v1/"
+               },
+               {   "name":"Prod Server",
+                   "domain": "admin.cricworm.com",
+                   "value":"http://api.cricworm.com/api/v1/"
+               }
+ ]
+}

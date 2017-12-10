@@ -1,0 +1,43 @@
+<div class="account separate-inputs" data-page="login" style="padding-top:100px; height: 100vh;">
+        <div class="container" id="login-block">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-md-offset-4">
+                    <div class="account-wall">
+                        <img class="img-reponsive center-block" src="../../img/logo.png" width="70%" >
+                        <H4 class="text-center">ADMIN CONSOLE</H4>
+                        <form class="form-signin">
+                            <div class="append-icon">
+                                <input type="text" name="username" id="username" ng-model="user.username" class="form-control form-white username" placeholder="Username" ng-enter="loginuser(user)" required>
+                                <i class="icon-user"></i>
+                            </div>
+                            <div class="append-icon m-b-20">
+                                <input type="password" name="password" ng-model="user.password" class="form-control form-white password" placeholder="Password" ng-enter="loginuser(user)" required>
+                                <i class="icon-lock"></i>
+                            </div>
+               <!--             <select class="form-control" ng-model="baseapiurl" ng-options="option.name for option in basiApiUrls"></select>   --> 
+                            <button class="btn btn-lg btn-primary btn-block ladda-button" ng-click="loginuser(user)">Sign In</button>
+                            <!--<div class="social-btn">
+                                <button type="button" class="btn-fb btn btn-lg btn-block btn-primary"><i class="icons-socialmedia-08 pull-left"></i>Connect with Facebook</button>
+                                <button type="button" class="btn btn-lg btn-block btn-blue"><i class="icon-social-twitter pull-left"></i>Login with Twitter</button>
+                            </div>-->
+                            <div class="clearfix">
+                                <p class="pull-left m-t-20" style="display:none;"><a id="password" class="pointer">Forgot password?</a></p>
+                                <p class="pull-right m-t-20" style="display:none;"><a href="user-signup-v1.html">New here? Sign up</a></p>
+                            </div>
+                        </form>
+                        <form class="form-password" role="form">
+                            <div class="append-icon m-b-20">
+                                <input type="password" name="password" class="form-control form-white password" placeholder="Password" required>
+                                <i class="icon-lock"></i>
+                            </div>
+                            <button type="submit" id="submit-password" class="btn btn-lg btn-danger btn-block ladda-button" data-style="expand-left">Send Password Reset Link</button>
+                            <div class="clearfix">
+                                <p class="pull-left m-t-20"><a id="login" href="#">Already got an account? Sign In</a></p>
+                                <p class="pull-right m-t-20"><a href="user-signup-v1.html">New here? Sign up</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>

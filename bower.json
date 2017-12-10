@@ -1,0 +1,53 @@
+{
+  "name": "Cricworm-AdminPanel ",
+  "version": "0.1.0",
+  "authors": [
+    "Karthik Balu <kbalu@clofus.com>"
+  ],
+  "description": "Cricworm administration panel",
+  "license": "MIT",
+  "homepage": "http://www.Cricworm.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.2.28",
+    "jquery": "2.0.3",
+    "jquery-ui": "1.10.4",
+    "bootstrap": "3.3.4",
+    "angular-bootstrap": "0.12.0",
+    "angular-animate": "1.2.28",
+    "angular-cookies": "1.2.28",
+    "angular-resource": "1.2.28",
+    "angular-route": "1.2.28",
+    "angular-mocks": "1.2.28",
+    "angular-sanitize": "~1.2.28",
+    "angular-scenario": "1.2.28",
+    "angular-touch": "1.2.28",
+    "angular-xml2json": "~0.0.2",
+    "components-font-awesome": "~4.5.0",
+    "tinymce": "tinymce-dist#~4.3.1",
+    "angular-ui-tinymce": "~0.0.10",
+    "ng-tags-input": "2.3.0",
+    "angular-ui-notification": "~0.1.0",
+    "angular-input-stars-directive": "angular-input-stars#~1.5.5",
+    "moment": "2.5.1",
+    "eonasdan-bootstrap-datetimepicker": "4.17.37"
+  },
+  "resolutions": {
+    "jquery": "2.0.3",
+    "angular": "1.2.28",
+    "bootstrap": "3.3.4",
+    "angular-sanitize": "~1.2.28",
+    "ng-tags-input": "2.3.0",
+    "angular-bootstrap": "0.12.0",
+    "tinymce": "~4.3.1",
+    "moment": ">=2.8.0"
+  }
+}

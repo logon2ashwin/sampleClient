@@ -1,0 +1,35 @@
+<div class="topbar">
+    <div class="header-left">
+        <div class="topnav">
+            <a class="menutoggle"  data-toggle="sidebar-collapsed"><span class="menu__handle"><span>Menu</span></span></a>
+        </div>
+    </div>
+    <div class="header-right">
+        <ul class="header-menu nav navbar-nav">
+            <!-- END USER DROPDOWN -->
+            <!-- BEGIN NOTIFICATION DROPDOWN -->
+            <!-- END MESSAGES DROPDOWN -->
+            <!-- BEGIN USER DROPDOWN -->
+            
+            
+            <li class="dropdown" id="user-header">
+                <a class="dropdown-toggle" data-toggle="dropdown">
+                    <img ng-hide="UserInfo.profilepicture" src="./img/avator.png" alt="user image">
+                    <img ng-show="UserInfo.profilepicture" src="{{UserInfo.profilepicture}}" alt="">
+                    <span class="username text-capitalize">Hi, {{UserInfo.userid.username}}</span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="/profile"><i class="icon-user"></i><span>My Profile</span></a>
+                    </li>
+                    <li>
+                        <a  ng-click="go('/signout')"><i class="icon-logout"></i><span>Logout</span></a>
+                    </li>
+                </ul>
+            </li>
+            <!-- END USER DROPDOWN -->
+            <!-- CHAT BAR ICON -->
+        </ul>
+    </div>
+    <!-- header-right -->
+</div>

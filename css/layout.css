@@ -1,0 +1,137 @@
+/**{
+    font-family: ProximaNova-Regular, Lato, 'Open Sans', Helvetica, sans-serif  !important;
+}*/
+
+.titletextbox{
+    outline: none!important;
+    border: none!important;
+    font-weight: 300 !important;
+    font-size: 30px !important;
+    background-color: rgb(255, 255, 255)!important;
+}
+.titletextbox:focus{
+    outline: none!important;
+    border: none!important;
+    font-weight: 300 !important;
+    font-size: 30px !important;
+    background-color: rgb(255, 255, 255)!important;
+}
+.titletextbox:active{
+    outline: none!important;
+    border: none!important;
+    font-weight: 300 !important;
+    font-size: 30px !important;
+    background-color: rgb(255, 255, 255)!important;
+}
+
+.pointer
+{
+    cursor: pointer;
+}
+
+.preview{
+
+    margin-top: 75px;
+}
+.page-app.mailbox .message-item{
+    background-color: #fff;
+}
+
+.logopanel>h1>a{
+    font-family: "Proxima Nova" !important;
+    font-size: 100% !important;
+    background-image : url("/img/logo.png")  !important;
+    background-repeat: no-repeat  !important;
+    background-size: 100% 100% !important;
+    text-decoration: none  !important;
+    color:#fff  !important;
+}
+.user-profile-content{
+    padding: 5px;
+    margin: 10px;
+    font-size: 14px;
+}
+.beautyboard{
+    border:1px solid #ccc;
+    padding:10px;
+    margin:10px;
+}
+.boardimgpreview{
+    border:5px solid #fff;
+    box-shadow: 0 0 0 1px #d8dddf;
+}
+.boardimgpreview:hover{
+    border:none;
+}
+.profile-username{
+    display: table;
+    text-align: center;
+}
+.profile-username>span{
+    font-size:20px;
+    font-weight:300;
+    padding: 10px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+select{
+    font-size: 120% !important;
+}
+
+.main-content{
+    height: 100%;
+}
+
+.account{
+    background: #272727;
+    background: -moz-radial-gradient(center, ellipse cover, #272727 0%, #1F1F1F 44%, #121212 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #272727), color-stop(44%, #1F1F1F), color-stop(100%, #121212));
+    background: -webkit-radial-gradient(center, ellipse cover, #272727 0%, #1F1F1F 44%, #121212 100%);
+    background: -o-radial-gradient(center, ellipse cover, #272727 0%, #1F1F1F 44%, #121212 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #272727 0%, #1F1F1F 44%, #121212 100%);
+    background: radial-gradient(ellipse at center, #272727 0%, #1F1F1F 44%, #121212 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@account-color-dark', endColorstr='#040d11', GradientType=1);
+}
+
+.body{
+     background-color: transparent;
+}
+
+.page-app.mailbox .messages-list:after{
+    border: none;
+}
+
+.sidebar .sidebar-inner .nav-sidebar > li > a {
+    font-family: ProximaNova-Regular, Lato, 'Open Sans', Helvetica, sans-serif  !important;
+}
+
+.sidebar .sidebar-inner .sidebar-top .userlogged > i{
+    float: left;
+    font-size: 60px;
+    margin-bottom: -21px;
+    padding-right: 0px;
+    color: #aaa;
+}
+
+.shiny-list>li{
+        font-size: 14px;
+    display: inline-block;
+    padding-right: 1px;
+    padding-left: 2px;
+    cursor: pointer;
+    color:#ff7e79;
+}
+
+.shiny-list-inside>li{
+        font-size: 30px;
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+    color:#ff7e79;
+}
+
+.selectedbatsman{
+    background: #ccc;
+}

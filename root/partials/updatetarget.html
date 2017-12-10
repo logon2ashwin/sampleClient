@@ -1,0 +1,32 @@
+<div class="modal-header">
+        <h2>Update Target</h2>
+    </div>
+    <div class="modal-body">
+        <div class="row">
+            <div class="col-md-12">
+            <form name="targetupdate">
+            <table class="table table-hover">
+                <thead>
+                    <tr style="height: 50px;">
+                    <td style="width: 90px; height: 50px;">Enter Target Runs</td>
+                    <td>
+                        <input type="number" style="height: 45px;" class="form-control" placeholder="runs" ng-model="battingteam.targetscore" required>
+                    </td>
+                    </tr>
+                    <tr style="height: 50px;">
+                    <td style="width: 90px; height: 50px;">Enter overs</td>
+                    <td>
+                        <input type="number" style="height: 45px;" class="form-control" placeholder="balls" ng-model="battingteam.totalovers">
+                    </td>
+                    </tr>
+                </thead>
+            </table>
+            </form>
+    
+             <div class="form-group" style="text-align: center;">
+                <input type="button" class="btn btn-md btn-success" value="Confirm" ng-click="save()" ng-disabled="targetupdate.$error.required">
+                <input type="button" class="btn btn-md btn-danger" ng-click="cancel()" value="Close">
+            </div>    
+            </div>
+        </div>
+    </div>

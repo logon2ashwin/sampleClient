@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html ng-app="cricwormadmin">
+
+<head>
+    <title>Cricworm - Admin</title>
+    <base href="/">
+   <!--  <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png"> -->
+    <!-- <link rel="manifest" href="img/favicons/manifest.json"> -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <!-- <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png"> -->
+    <meta name="theme-color" content="#ffffff">
+    <meta name="mobile-web-app-capable" value="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <meta name="apple-mobile-web-app-title" content="Cricworm">
+    <meta name="application-name" content="Cricworm">
+    <link rel="apple-touch-startup-image" href="img/splash.png">
+    <meta name="theme-color" content="#46A6DB">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- <link rel="stylesheet" href="./lib/css/lib2.css"> -->
+    <!-- <link rel="stylesheet" href="./lib/css/lib.css"> -->
+    <!-- global styles -->
+    <link rel="stylesheet" type="text/css" href="./fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/theme.css">
+    <link rel="stylesheet" type="text/css" href="./css/ui.css">
+    <link rel="stylesheet" type="text/css" href="./css/layout.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <meta name="mobile-web-app-capable" value="yes">
+    <meta name="mobile-web-app-capable" value="yes">
+    <meta name="mobile-web-app-capable" value="yes">
+    <meta name="mobile-web-app-capable" value="yes">
+    <meta name="mobile-web-app-capable" value="yes">
+    <meta name="mobile-web-app-capable" value="yes">
+<!--     <meta name="msapplication-square70x70logo" content="/favicon/windows-tile-70x70.png">
+    <meta name="msapplication-square150x150logo" content="/favicon/windows-tile-150x150.png">
+    <meta name="msapplication-square310x310logo" content="/favicon/windows-tile-310x310.png">
+    <meta name="msapplication-TileImage" content="/favicon/windows-tile-144x144.png">
+    <meta name="msapplication-TileColor" content="#46A6DB">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/favicon/apple-touch-icon-152x152-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/favicon/apple-touch-icon-120x120-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/favicon/apple-touch-icon-76x76-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/favicon/apple-touch-icon-60x60-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/favicon/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/favicon/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-touch-icon.png">
+    <meta name="mobile-web-app-capable" value="yes">
+    <link rel="icon" sizes="196x196" href="/favicon/homescreen-196x196.png">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon/favicon.png"> -->
+</head>
+
+<body class="fixed-topbar fixed-sidebar theme-sdtl color-default">
+    <div ng-spinner-loader class="page-spinner-loader">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+    <section style="opacity:1" class="section">
+        <div ng-include="&apos;./partials/sidebar.html&apos;"></div>
+        <div class="main-content" ng-view=""></div>
+    </section>
+    <div class="loader-overlay">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!--External compressed library file -->
+    <!--fonts-->
+    <link href="./fonts/fonts.css" rel="stylesheet" type="text/css">
+    <!-- Root app files -->
+    <link href="./lib/css/lib.css" rel="stylesheet" type="text/css">
+    <link href="./lib/css/lib2.css" rel="stylesheet" type="text/css">
+    <link href="./css/theme.css" rel="stylesheet" type="text/css">
+    <link href="./css/ui.css" rel="stylesheet" type="text/css">
+    <!--Plugins stylesheet-->
+    <link href="./plugins/mcustom-scrollbar/mcustom_scrollbar.min.css" rel="stylesheet" type="text/css">
+    <link href="./plugins/jasny-bootstrap/jasny-bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./plugins/multipleselectbox/select2.css" rel="stylesheet" type="text/css">
+    <link href="./plugins/checkbox/skins/all.css" rel="stylesheet" type="text/css">
+    <link href="./plugins/bootstrap-tags/bootstrap-tagsinput.css" rel="stylesheet" type="text/css">
+    <link href="./plugins/cropper/cropper.min.css" rel="stylesheet" type="text/css">
+    <!--Icons-->
+    <link href="./css/icons/line-icons/line-icons.css" rel="stylesheet" type="text/css">
+    <link href="./css/icons/octicons/octicons.css" rel="stylesheet" type="text/css">
+    <link href="./css/icons/weather/weather-icons/weather-icons.min.less" rel="stylesheet" type="text/css">
+    <link href="./css/icons/rounded/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!--plugins-->
+    <script src="./plugins/tinymce/tinymce.min.js"></script>
+    <script src="./plugins/xml2json/xml2json.js"></script>
+    <script src="./lib/js/lib.js"></script>
+    <script src="./lib/jquery-cookie/cookie.js"></script>
+    <script src="root/app.js"></script>
+    <script src="root/controllers/main.js"></script>
+    <!--Routes -->
+    <script src="./root/routes/AppRoutes.js"></script>
+    <!--Directives -->
+    <script src="./root/directives/contenteditable.js"></script>
+    <script src="./root/directives/enterkey.js"></script>
+    <script src="./root/directives/clofdatepicker.js"></script>
+    <script src="./root/directives/uploadfile.js"></script>
+    <script src="./root/directives/fileupload.js"></script>
+    <!--Services -->
+    <script src="./root/services/configservice.js"></script>
+    <script src="./root/services/sidebarscrollable.js"></script>
+    <script src="./root/services/icheckboxservice.js"></script>
+    <script src="./root/services/pluginsservice.js"></script>
+    <script src="./root/services/dashboardservice.js"></script>
+    <script src="./root/services/application.js"></script>
+    <script src="./root/services/inputtagsservice.js"></script>
+    <script src="./root/services/hidebarservice.js"></script>
+    <script src="./root/services/changetoautoservice.js"></script>
+     
+    <!--Module Controllers-->
+    <script src="./modules/dashboard/js/dashboard.js"></script>
+    <script src="./modules/signin/js/signin.js"></script>
+    <script src="./modules/signout/js/signout.js"></script>
+    <script src="./modules/teams/js/teams.js"></script>
+    <script src="./modules/players/js/players.js"></script>
+    <script src="./modules/match/js/match.js"></script>
+    <script src="./modules/tournament/js/tournament.js"></script>
+    <script src="./modules/scores/js/scores.js"></script>
+    <script src="./modules/users/js/users.js"></script>
+    <script src="./modules/banner/js/banner.js"></script>
+    
+    
+    <!--plugins-->
+    <script src="./plugins/mcustom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="./plugins/jasny-bootstrap/jasny-bootstrap.min.js"></script>
+    <script src="./plugins/checkbox/icheck.min.js"></script>
+    <script src="./plugins/multipleselectbox/select2.min.js"></script>
+    <script src="./plugins/bootstrap-tags/bootstrap-tagsinput.min.js"></script>
+    <script src="./plugins/cropper/cropper.min.js"></script>
+    <script src="./plugins/canvas_to_blob/canvas-to-blob.min.js"></script>
+    <script src="./plugins/bootstrap-dropdown/bootstrap-hover-dropdown.min.js"></script>
+    <!--    <script src="http://localhost:35729/livereload.js"></script>-->
+    
+    <!-- maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHlXxm2rrtQ-4HekZjivKC_tWdieGSerg&libraries=places"></script>
+</body>
+
+</html>

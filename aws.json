@@ -1,0 +1,12 @@
+{
+  "s3": {
+    "accessKeyId": "",
+    "secretAccessKey": "",
+    "bucket": ""
+  },
+  "dns":{
+    "accessKeyId": "",
+    "secretAccessKey": "",
+    "bucket": ""
+  }
+}
